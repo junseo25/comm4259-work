@@ -1,0 +1,31 @@
+|--- BAD <= 0.50
+|   |--- PERFORMANCE <= 0.50
+|   |   |--- GREAT <= 0.50
+|   |   |   |--- MIND <= 0.50
+|   |   |   |   |--- weights: [111.00, 77.00] class: negative
+|   |   |   |--- MIND >  0.50
+|   |   |   |   |--- weights: [9.00, 25.00] class: positive
+|   |   |--- GREAT >  0.50
+|   |   |   |--- WASTE <= 0.50
+|   |   |   |   |--- weights: [20.00, 65.00] class: positive
+|   |   |   |--- WASTE >  0.50
+|   |   |   |   |--- weights: [7.00, 1.00] class: negative
+|   |--- PERFORMANCE >  0.50
+|   |   |--- GAG <= 0.50
+|   |   |   |--- A_HALF <= 0.50
+|   |   |   |   |--- weights: [20.00, 93.00] class: positive
+|   |   |   |--- A_HALF >  0.50
+|   |   |   |   |--- weights: [6.00, 3.00] class: negative
+|   |   |--- GAG >  0.50
+|   |   |   |--- weights: [4.00, 0.00] class: negative
+|--- BAD >  0.50
+|   |--- REMEMBERED <= 0.50
+|   |   |--- ANIMATION <= 0.50
+|   |   |   |--- WONDERFULLY <= 0.50
+|   |   |   |   |--- weights: [187.00, 65.00] class: negative
+|   |   |   |--- WONDERFULLY >  0.50
+|   |   |   |   |--- weights: [1.00, 8.00] class: positive
+|   |   |--- ANIMATION >  0.50
+|   |   |   |--- weights: [0.00, 8.00] class: positive
+|   |--- REMEMBERED >  0.50
+|   |   |--- weights: [0.00, 8.00] class: positive
