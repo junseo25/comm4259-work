@@ -1,16 +1,25 @@
 |--- BAD <= 0.50
-|   |--- WORST <= 0.50
+|   |--- OUTSTANDING <= 0.50
 |   |   |--- GREAT <= 0.50
-|   |   |   |--- STUPID <= 0.50
-|   |   |   |   |--- weights: [154.00, 230.00] class: positive
-|   |   |   |--- STUPID >  0.50
-|   |   |   |   |--- weights: [25.00, 6.00] class: negative
+|   |   |   |--- THE_ONLY_THING <= 0.50
+|   |   |   |   |--- weights: [195.00, 227.00] class: positive
+|   |   |   |--- THE_ONLY_THING >  0.50
+|   |   |   |   |--- weights: [14.00, 0.00] class: negative
 |   |   |--- GREAT >  0.50
-|   |   |   |--- weights: [46.00, 161.00] class: positive
-|   |--- WORST >  0.50
-|   |   |--- weights: [39.00, 14.00] class: negative
+|   |   |   |--- WASTE <= 0.50
+|   |   |   |   |--- weights: [43.00, 149.00] class: positive
+|   |   |   |--- WASTE >  0.50
+|   |   |   |   |--- weights: [12.00, 4.00] class: negative
+|   |--- OUTSTANDING >  0.50
+|   |   |--- weights: [0.00, 31.00] class: positive
 |--- BAD >  0.50
-|   |--- ANIMATION <= 0.50
-|   |   |--- weights: [265.00, 122.00] class: negative
-|   |--- ANIMATION >  0.50
-|   |   |--- weights: [0.00, 10.00] class: positive
+|   |--- STUPID <= 0.50
+|   |   |--- ANIMATION <= 0.50
+|   |   |   |--- ENDING <= 0.50
+|   |   |   |   |--- weights: [195.00, 88.00] class: negative
+|   |   |   |--- ENDING >  0.50
+|   |   |   |   |--- weights: [14.00, 29.00] class: positive
+|   |   |--- ANIMATION >  0.50
+|   |   |   |--- weights: [0.00, 10.00] class: positive
+|   |--- STUPID >  0.50
+|   |   |--- weights: [56.00, 5.00] class: negative

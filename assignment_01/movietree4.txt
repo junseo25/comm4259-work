@@ -1,19 +1,43 @@
 |--- BAD <= 0.50
-|   |--- WORST <= 0.50
+|   |--- OUTSTANDING <= 0.50
 |   |   |--- GREAT <= 0.50
-|   |   |   |--- STUPID <= 0.50
-|   |   |   |   |--- ONLY_THING <= 0.50
-|   |   |   |   |   |--- weights: [141.00, 230.00] class: positive
-|   |   |   |   |--- ONLY_THING >  0.50
-|   |   |   |   |   |--- weights: [13.00, 0.00] class: negative
-|   |   |   |--- STUPID >  0.50
-|   |   |   |   |--- weights: [25.00, 6.00] class: negative
+|   |   |   |--- THE_ONLY_THING <= 0.50
+|   |   |   |   |--- WORST <= 0.50
+|   |   |   |   |   |--- TERRIFIC <= 0.50
+|   |   |   |   |   |   |--- weights: [165.00, 202.00] class: positive
+|   |   |   |   |   |--- TERRIFIC >  0.50
+|   |   |   |   |   |   |--- weights: [0.00, 17.00] class: positive
+|   |   |   |   |--- WORST >  0.50
+|   |   |   |   |   |--- weights: [30.00, 8.00] class: negative
+|   |   |   |--- THE_ONLY_THING >  0.50
+|   |   |   |   |--- weights: [14.00, 0.00] class: negative
 |   |   |--- GREAT >  0.50
-|   |   |   |--- weights: [46.00, 161.00] class: positive
-|   |--- WORST >  0.50
-|   |   |--- weights: [39.00, 14.00] class: negative
+|   |   |   |--- WASTE <= 0.50
+|   |   |   |   |--- IDEA <= 0.50
+|   |   |   |   |   |--- weights: [25.00, 126.00] class: positive
+|   |   |   |   |--- IDEA >  0.50
+|   |   |   |   |   |--- weights: [18.00, 23.00] class: positive
+|   |   |   |--- WASTE >  0.50
+|   |   |   |   |--- weights: [12.00, 4.00] class: negative
+|   |--- OUTSTANDING >  0.50
+|   |   |--- weights: [0.00, 31.00] class: positive
 |--- BAD >  0.50
-|   |--- ANIMATION <= 0.50
-|   |   |--- weights: [265.00, 122.00] class: negative
-|   |--- ANIMATION >  0.50
-|   |   |--- weights: [0.00, 10.00] class: positive
+|   |--- STUPID <= 0.50
+|   |   |--- ANIMATION <= 0.50
+|   |   |   |--- ENDING <= 0.50
+|   |   |   |   |--- WASTED <= 0.50
+|   |   |   |   |   |--- INTELLIGENT <= 0.50
+|   |   |   |   |   |   |--- weights: [169.00, 76.00] class: negative
+|   |   |   |   |   |--- INTELLIGENT >  0.50
+|   |   |   |   |   |   |--- weights: [3.00, 12.00] class: positive
+|   |   |   |   |--- WASTED >  0.50
+|   |   |   |   |   |--- weights: [23.00, 0.00] class: negative
+|   |   |   |--- ENDING >  0.50
+|   |   |   |   |--- MESS <= 0.50
+|   |   |   |   |   |--- weights: [6.00, 28.00] class: positive
+|   |   |   |   |--- MESS >  0.50
+|   |   |   |   |   |--- weights: [8.00, 1.00] class: negative
+|   |   |--- ANIMATION >  0.50
+|   |   |   |--- weights: [0.00, 10.00] class: positive
+|   |--- STUPID >  0.50
+|   |   |--- weights: [56.00, 5.00] class: negative
