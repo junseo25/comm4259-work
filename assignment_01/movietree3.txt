@@ -1,0 +1,64 @@
+|--- BAD <= 0.50
+|   |--- WORST <= 0.50
+|   |   |--- GREAT <= 0.50
+|   |   |   |--- STUPID <= 0.50
+|   |   |   |   |--- ONLY_THING <= 0.50
+|   |   |   |   |   |--- WONDERFUL <= 0.50
+|   |   |   |   |   |   |--- weights: [137.00, 196.00] class: positive
+|   |   |   |   |   |--- WONDERFUL >  0.50
+|   |   |   |   |   |   |--- weights: [4.00, 34.00] class: positive
+|   |   |   |   |--- ONLY_THING >  0.50
+|   |   |   |   |   |--- weights: [13.00, 0.00] class: negative
+|   |   |   |--- STUPID >  0.50
+|   |   |   |   |--- PERFORMANCES <= 0.50
+|   |   |   |   |   |--- weights: [24.00, 3.00] class: negative
+|   |   |   |   |--- PERFORMANCES >  0.50
+|   |   |   |   |   |--- weights: [1.00, 3.00] class: positive
+|   |   |--- GREAT >  0.50
+|   |   |   |--- WASTE <= 0.50
+|   |   |   |   |--- SHOW_OFF <= 0.50
+|   |   |   |   |   |--- INSULT <= 0.50
+|   |   |   |   |   |   |--- weights: [30.00, 157.00] class: positive
+|   |   |   |   |   |--- INSULT >  0.50
+|   |   |   |   |   |   |--- weights: [4.00, 1.00] class: negative
+|   |   |   |   |--- SHOW_OFF >  0.50
+|   |   |   |   |   |--- weights: [4.00, 0.00] class: negative
+|   |   |   |--- WASTE >  0.50
+|   |   |   |   |--- FIND_THEMSELVES <= 0.50
+|   |   |   |   |   |--- weights: [8.00, 1.00] class: negative
+|   |   |   |   |--- FIND_THEMSELVES >  0.50
+|   |   |   |   |   |--- weights: [0.00, 2.00] class: positive
+|   |--- WORST >  0.50
+|   |   |--- MAN_WHO <= 0.50
+|   |   |   |--- MEMORABLE <= 0.50
+|   |   |   |   |--- NOMINATION <= 0.50
+|   |   |   |   |   |--- THE_SETTING <= 0.50
+|   |   |   |   |   |   |--- weights: [39.00, 2.00] class: negative
+|   |   |   |   |   |--- THE_SETTING >  0.50
+|   |   |   |   |   |   |--- weights: [0.00, 2.00] class: positive
+|   |   |   |   |--- NOMINATION >  0.50
+|   |   |   |   |   |--- weights: [0.00, 3.00] class: positive
+|   |   |   |--- MEMORABLE >  0.50
+|   |   |   |   |--- weights: [0.00, 3.00] class: positive
+|   |   |--- MAN_WHO >  0.50
+|   |   |   |--- weights: [0.00, 4.00] class: positive
+|--- BAD >  0.50
+|   |--- ANIMATION <= 0.50
+|   |   |--- REMEMBERED <= 0.50
+|   |   |   |--- DARKER <= 0.50
+|   |   |   |   |--- WONDERFULLY <= 0.50
+|   |   |   |   |   |--- CHEMISTRY <= 0.50
+|   |   |   |   |   |   |--- weights: [252.00, 77.00] class: negative
+|   |   |   |   |   |--- CHEMISTRY >  0.50
+|   |   |   |   |   |   |--- weights: [9.00, 16.00] class: positive
+|   |   |   |   |--- WONDERFULLY >  0.50
+|   |   |   |   |   |--- MINUTES <= 0.50
+|   |   |   |   |   |   |--- weights: [0.00, 10.00] class: positive
+|   |   |   |   |   |--- MINUTES >  0.50
+|   |   |   |   |   |   |--- weights: [3.00, 1.00] class: negative
+|   |   |   |--- DARKER >  0.50
+|   |   |   |   |--- weights: [0.00, 8.00] class: positive
+|   |   |--- REMEMBERED >  0.50
+|   |   |   |--- weights: [1.00, 10.00] class: positive
+|   |--- ANIMATION >  0.50
+|   |   |--- weights: [0.00, 10.00] class: positive

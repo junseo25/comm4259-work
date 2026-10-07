@@ -1,0 +1,19 @@
+|--- BAD <= 0.50
+|   |--- WORST <= 0.50
+|   |   |--- GREAT <= 0.50
+|   |   |   |--- STUPID <= 0.50
+|   |   |   |   |--- ONLY_THING <= 0.50
+|   |   |   |   |   |--- weights: [141.00, 230.00] class: positive
+|   |   |   |   |--- ONLY_THING >  0.50
+|   |   |   |   |   |--- weights: [13.00, 0.00] class: negative
+|   |   |   |--- STUPID >  0.50
+|   |   |   |   |--- weights: [25.00, 6.00] class: negative
+|   |   |--- GREAT >  0.50
+|   |   |   |--- weights: [46.00, 161.00] class: positive
+|   |--- WORST >  0.50
+|   |   |--- weights: [39.00, 14.00] class: negative
+|--- BAD >  0.50
+|   |--- ANIMATION <= 0.50
+|   |   |--- weights: [265.00, 122.00] class: negative
+|   |--- ANIMATION >  0.50
+|   |   |--- weights: [0.00, 10.00] class: positive
