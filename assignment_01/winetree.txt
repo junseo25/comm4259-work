@@ -1,0 +1,25 @@
+|--- alcohol <= 10.85
+|   |--- volatile acidity <= 0.23
+|   |   |--- free sulfur dioxide <= 24.50
+|   |   |   |--- weights: [16.00, 43.00] class: Poor
+|   |   |--- free sulfur dioxide >  24.50
+|   |   |   |--- fixed acidity <= 6.55
+|   |   |   |   |--- weights: [14.00, 29.00] class: Poor
+|   |   |   |--- fixed acidity >  6.55
+|   |   |   |   |--- weights: [100.00, 42.00] class: Good
+|   |--- volatile acidity >  0.23
+|   |   |--- pH <= 3.31
+|   |   |   |--- weights: [27.00, 361.00] class: Poor
+|   |   |--- pH >  3.31
+|   |   |   |--- alcohol <= 10.45
+|   |   |   |   |--- weights: [9.00, 37.00] class: Poor
+|   |   |   |--- alcohol >  10.45
+|   |   |   |   |--- weights: [13.00, 1.00] class: Good
+|--- alcohol >  10.85
+|   |--- free sulfur dioxide <= 10.50
+|   |   |--- weights: [7.00, 21.00] class: Poor
+|   |--- free sulfur dioxide >  10.50
+|   |   |--- alcohol <= 11.62
+|   |   |   |--- weights: [134.00, 46.00] class: Good
+|   |   |--- alcohol >  11.62
+|   |   |   |--- weights: [280.00, 20.00] class: Good
