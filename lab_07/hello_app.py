@@ -9,7 +9,7 @@ customer = pd.read_csv(Path(__file__).parent / "Customer.csv")   # the data file
 st.metric("Customers", len(customer))
 st.metric("Churn rate", f"{customer['Churn'].mean():.1%}")
 
-column = st.selectbox("Show the churn rate by", ["Gender", "Education", "Children", "State"])
+column = st.selectbox("Show the churn rate by", ["Gender", "Education", "Children"])
 st.bar_chart(customer.groupby(column)["Churn"].mean())
 
 st.dataframe(customer.head(10))
